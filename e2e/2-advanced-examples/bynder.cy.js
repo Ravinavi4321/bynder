@@ -10,7 +10,6 @@ describe("bynder test scenario", () => {
               loginData = data.userDetails
           })
        })
-
     it("Login test case", ()=> {
          cy.visit("https://wave-trial.getbynder.com/login/")
          login.get_logo()
