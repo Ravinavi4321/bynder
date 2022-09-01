@@ -43,8 +43,6 @@ class signIn {
             expect(invalidMessage).to.eq('You have entered an incorrect username or password.')
         })
     }
-
 }
-
 export default signIn;
    
