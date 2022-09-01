@@ -5,6 +5,6 @@
         "username" : "ravikumar.nattala@atyeti.com",
         "Password" : "Dhanvith@123",
         "invalidPassword" : "ravi@123",
-         "invalidUsername" : "ravikumar"
+        "invalidUsername" : "ravikumar"
     }
 }
