@@ -3,11 +3,10 @@
 import signIn from '../../support/PageObjectModel/bynderLogin'
 
 describe("bynder test scenario", () => {
-    let loginData
        const login = new signIn()
        before(function(){
           cy.fixture('bynder').then(function(data){
-              loginData = data.userDetails
+            let loginData = data.userDetails
           })
        })
     it("Login test case", ()=> {
